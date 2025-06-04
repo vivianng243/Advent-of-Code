@@ -1,5 +1,5 @@
 content = ""
-with open('input.txt', 'r') as file:
+with open('03/input.txt', 'r') as file:
     content = file.read().replace("\n", "")
 
 #Split "mul"
