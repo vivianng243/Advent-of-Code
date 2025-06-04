@@ -48,7 +48,7 @@ def checkSecondNumber(string):
 
 result = 0      
 for line in lines:
-    if len(line) == 2: 
+    if len(line) > 1: 
         mul = checkFirstNumber(line[0]) * checkSecondNumber(line[1])
         result = result + mul
 print(result)
