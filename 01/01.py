@@ -1,5 +1,5 @@
 content = ""
-with open('04/input.txt', 'r') as file:
+with open('01/input.txt', 'r') as file:
     content = file.read()
 
 result=content.split("\n")
