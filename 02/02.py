@@ -25,11 +25,15 @@ for report in result:
     for level in range(len(list)-1):
         if list[level] > list[level+1]:
             orderAsc += 1 
-    print(safe, end = " ")
-    print(orderDesc, end = " ")
-    print(orderAsc)
+    
+    
     if (safe == 1 and (orderAsc == 0 or orderDesc == 0)) or (safe == 0 and (orderAsc <= 1 or orderDesc <= 1)) :
         count += 1 
+        print(safe, end = " ")
+        print(orderDesc, end = " ")
+        print(orderAsc)
+    
+        
         
         
 print(count)
